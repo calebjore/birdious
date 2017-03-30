@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  get 'sightings' => 'pages#home'
+  get 'sightings/index'
+
+  root 'sightings#index'
 end
